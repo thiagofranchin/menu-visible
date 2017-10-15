@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.topo {
+    width: 100%;
+    height: 300px;
+    background: #9365B8;
+}
+.menu {
+    width: 30%;
+    background: #61BD6D;
+    float: left;
+}
+.menu ul {
+    margin: 0;
+}
+.conteudo {
+    width: 70%;
+    background: #EB6B56;
+    float: right;
+}

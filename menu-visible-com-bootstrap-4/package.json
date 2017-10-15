@@ -1,0 +1,19 @@
+{
+  "name": "menu-visible",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch css/style.scss css/style.css",
+    "sass-min": "node-sass --watch css/style.scss css/style.min.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Thiago Franchin",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}

@@ -1,0 +1,43 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+body {
+    color: white;
+}
+
+.topo {
+    height: 300px;    
+    background-color: #9365B8;
+    h1 {
+        line-height: 300px;
+    }
+}
+
+.menu {
+    background-color: #61BD6D;
+    padding: 0;
+    ul {
+        padding: 0;
+        width: 100%;
+        li {
+            font-size: 30px;
+            width: 100%;
+            border-bottom: 1px solid darken(#61BD6D,20%);
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            cursor: pointer;
+            &:hover {
+                background-color: #EB6B56;
+                a {
+                    color: white;
+                }
+            }
+            a {
+                padding: 0 10px;
+                color: white;
+            }
+        }
+    }
+}
+.conteudo {
+    background-color: #EB6B56;
+}

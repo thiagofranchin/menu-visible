@@ -1,4 +1,7 @@
 Menu sempre visível com bootstrap 4 beta
+
+Requisito: NodeJs
+
 Antes de iniciar execute no console o comando "npm install" para baixar as dependências
 
 Para alterar o css utilize o SASS, você pode rodar os comandos:
